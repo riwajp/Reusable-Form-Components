@@ -1,16 +1,16 @@
 import { useWatch } from "react-hook-form";
 import { useContext, useEffect } from "react";
-import Select from "react-select";
 import { Controller } from "react-hook-form";
+import Select from "react-select";
 
 const SelectInput = ({
-  label,
-  labelRender,
   name,
   options,
   dependency,
   placeholder,
   form_context,
+  render,
+  label,
 }) => {
   const { control, setValue } = useContext(form_context);
 
@@ -61,21 +61,21 @@ const SelectInput = ({
   //return==================================================
   return (
     <div>
-      <div>{label}</div>
       <Controller
         control={control}
         name={name}
-        render={() => (
-          <Select
-            name={name}
-            placeholder={placeholder}
-            style={{ width: "100%" }}
-            options={options_final}
-            isMulti
-            onChange={(val) => setValue(name, val)}
-            value={self_value}
-          />
-        )}
+        render={() =>
+          render({
+            Select,
+            label,
+            name,
+            placeholder,
+            options: options_final,
+            isMulti: true,
+            onChange: (val) => setValue(name, val),
+            value: self_value,
+          })
+        }
       />
     </div>
   );
