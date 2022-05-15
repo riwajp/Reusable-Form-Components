@@ -36,18 +36,17 @@ const Forms = () => {
       >
         {" "}
         <SelectForms
-          name="form1"
           data={[
             { name: "province", options: select_form_data.province },
             { name: "district", options: select_form_data.district },
             { name: "local", options: select_form_data.local },
           ]}
           form_context={FormContext}
+          label={(label) => <div style={{ fontSize: "12" }}>{label}</div>}
         />
         <br />
         <br />
         <SelectForms
-          name="form2"
           data={[
             { name: "second_province", options: select_form_data.province },
             { name: "second_district", options: select_form_data.district },

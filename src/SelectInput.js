@@ -5,6 +5,7 @@ import { Controller } from "react-hook-form";
 
 const SelectInput = ({
   label,
+  labelRender,
   name,
   options,
   dependency,
@@ -59,8 +60,8 @@ const SelectInput = ({
 
   //return==================================================
   return (
-    <div style={{ marginTop: 10 }}>
-      <div style={{ fontSize: 13 }}>{label}</div>
+    <div>
+      <div>{label}</div>
       <Controller
         control={control}
         name={name}
@@ -68,7 +69,7 @@ const SelectInput = ({
           <Select
             name={name}
             placeholder={placeholder}
-            style={{ width: "100%", height: 30 }}
+            style={{ width: "100%" }}
             options={options_final}
             isMulti
             onChange={(val) => setValue(name, val)}

@@ -1,6 +1,6 @@
 import SelectInput from "./SelectInput";
 
-const SelectForms = ({ name, data, form_context }) => {
+const SelectForms = ({ data, form_context, label }) => {
   const select_names = data.map((d) => d.name);
   return (
     <div>
@@ -8,7 +8,7 @@ const SelectForms = ({ name, data, form_context }) => {
         <SelectInput
           key={i}
           name={d.name}
-          label={d.name}
+          label={label ? label(d.name) : null}
           options={d.options.map((o) => ({
             label: o.label,
 
