@@ -20,6 +20,7 @@ const SelectInput = ({
   const dependency_value_filtered = dependency_value.filter(
     (v) => v && v.length
   );
+
   const self_value = useWatch({ control, name: name }) || [];
 
   //to filter option============================================================
@@ -35,7 +36,7 @@ const SelectInput = ({
     const lowest_dependency =
       dependency_value_filtered[dependency_value_filtered.length - 1];
 
-    for (var j of lowest_dependency) {
+    for (let j of lowest_dependency) {
       const options_temp = options_new.filter((o) =>
         o.value.startsWith(j.value)
       );
@@ -59,26 +60,16 @@ const SelectInput = ({
   }, [dependency_value]);
 
   //return==================================================
-  return (
-    <div>
-      <Controller
-        control={control}
-        name={name}
-        render={() =>
-          render({
-            Select,
-            label,
-            name,
-            placeholder,
-            options: options_final,
-            isMulti: true,
-            onChange: (val) => setValue(name, val),
-            value: self_value,
-          })
-        }
-      />
-    </div>
-  );
+  return render({
+    Select,
+    label,
+    name,
+    placeholder,
+    options: options_final,
+    isMulti: true,
+    onChange: (val) => setValue(name, val),
+    value: self_value,
+  });
 };
 
 export default SelectInput;
