@@ -1,0 +1,3419 @@
+[
+  {"name":"date","type":"date-range","controlled":true},
+    { 
+        "name": "location",
+        "type": "multi-select",   
+        "controlled":true,
+        "data":[
+            {
+              "label": "Province",
+              "name": "province",
+              "options": [
+                {
+                  "label": "Province 1",
+                  "value": "1"
+                },
+                {
+                  "label": "Madhesh",
+                  "value": "2"
+                },
+                {
+                  "label": "Bagmati",
+                  "value": "3"
+                },
+                {
+                  "label": "Gandaki",
+                  "value": "4"
+                },
+                {
+                  "label": "Lumbini",
+                  "value": "5"
+                },
+                {
+                  "label": "Karnali",
+                  "value": "6"
+                },
+                {
+                  "label": "Sudurpashchim",
+                  "value": "7"
+                }
+              ]
+            },
+            {
+              "label": "District",
+              "name": "district",
+              "options": [
+                {
+                  "label": "Taplejung",
+                  "value": "101"
+                },
+                {
+                  "label": "Sankhuwasabha",
+                  "value": "102"
+                },
+                {
+                  "label": "Solukhumbu",
+                  "value": "103"
+                },
+                {
+                  "label": "Okhaldhunga",
+                  "value": "104"
+                },
+                {
+                  "label": "Khotang",
+                  "value": "105"
+                },
+                {
+                  "label": "Bhojpur",
+                  "value": "106"
+                },
+                {
+                  "label": "Dhankuta",
+                  "value": "107"
+                },
+                {
+                  "label": "Terhathum",
+                  "value": "108"
+                },
+                {
+                  "label": "Panchthar",
+                  "value": "109"
+                },
+                {
+                  "label": "Ilam",
+                  "value": "110"
+                },
+                {
+                  "label": "Jhapa",
+                  "value": "111"
+                },
+                {
+                  "label": "Morang",
+                  "value": "112"
+                },
+                {
+                  "label": "Sunsari",
+                  "value": "113"
+                },
+                {
+                  "label": "Udayapur",
+                  "value": "114"
+                },
+                {
+                  "label": "Saptari",
+                  "value": "201"
+                },
+                {
+                  "label": "Siraha",
+                  "value": "202"
+                },
+                {
+                  "label": "Dhanusa",
+                  "value": "203"
+                },
+                {
+                  "label": "Mahottari",
+                  "value": "204"
+                },
+                {
+                  "label": "Sarlahi",
+                  "value": "205"
+                },
+                {
+                  "label": "Rautahat",
+                  "value": "206"
+                },
+                {
+                  "label": "Bara",
+                  "value": "207"
+                },
+                {
+                  "label": "Parsa",
+                  "value": "208"
+                },
+                {
+                  "label": "Dolakha",
+                  "value": "301"
+                },
+                {
+                  "label": "Sindhupalchok",
+                  "value": "302"
+                },
+                {
+                  "label": "Rasuwa",
+                  "value": "303"
+                },
+                {
+                  "label": "Dhading",
+                  "value": "304"
+                },
+                {
+                  "label": "Nuwakot",
+                  "value": "305"
+                },
+                {
+                  "label": "Kathmandu",
+                  "value": "306"
+                },
+                {
+                  "label": "Bhaktapur",
+                  "value": "307"
+                },
+                {
+                  "label": "Lalitpur",
+                  "value": "308"
+                },
+                {
+                  "label": "Kavrepalanchok",
+                  "value": "309"
+                },
+                {
+                  "label": "Ramechhap",
+                  "value": "310"
+                },
+                {
+                  "label": "Sindhuli",
+                  "value": "311"
+                },
+                {
+                  "label": "Makwanpur",
+                  "value": "312"
+                },
+                {
+                  "label": "Chitwan",
+                  "value": "313"
+                },
+                {
+                  "label": "Gorkha",
+                  "value": "401"
+                },
+                {
+                  "label": "Manang",
+                  "value": "402"
+                },
+                {
+                  "label": "Mustang",
+                  "value": "403"
+                },
+                {
+                  "label": "Myagdi",
+                  "value": "404"
+                },
+                {
+                  "label": "Kaski",
+                  "value": "405"
+                },
+                {
+                  "label": "Lamjung",
+                  "value": "406"
+                },
+                {
+                  "label": "Tanahu",
+                  "value": "407"
+                },
+                {
+                  "label": "Nawalparasi East",
+                  "value": "408"
+                },
+                {
+                  "label": "Syangja",
+                  "value": "409"
+                },
+                {
+                  "label": "Parbat",
+                  "value": "410"
+                },
+                {
+                  "label": "Baglung",
+                  "value": "411"
+                },
+                {
+                  "label": "Rukum East",
+                  "value": "501"
+                },
+                {
+                  "label": "Rolpa",
+                  "value": "502"
+                },
+                {
+                  "label": "Pyuthan",
+                  "value": "503"
+                },
+                {
+                  "label": "Gulmi",
+                  "value": "504"
+                },
+                {
+                  "label": "Arghakhanchi",
+                  "value": "505"
+                },
+                {
+                  "label": "Palpa",
+                  "value": "506"
+                },
+                {
+                  "label": "Nawalparasi West",
+                  "value": "507"
+                },
+                {
+                  "label": "Rupandehi",
+                  "value": "508"
+                },
+                {
+                  "label": "Kapilbastu",
+                  "value": "509"
+                },
+                {
+                  "label": "Dang",
+                  "value": "510"
+                },
+                {
+                  "label": "Banke",
+                  "value": "511"
+                },
+                {
+                  "label": "Bardiya",
+                  "value": "512"
+                },
+                {
+                  "label": "Dolpa",
+                  "value": "601"
+                },
+                {
+                  "label": "Mugu",
+                  "value": "602"
+                },
+                {
+                  "label": "Humla",
+                  "value": "603"
+                },
+                {
+                  "label": "Jumla",
+                  "value": "604"
+                },
+                {
+                  "label": "Kalikot",
+                  "value": "605"
+                },
+                {
+                  "label": "Dailekh",
+                  "value": "606"
+                },
+                {
+                  "label": "Jajarkot",
+                  "value": "607"
+                },
+                {
+                  "label": "Rukum West",
+                  "value": "608"
+                },
+                {
+                  "label": "Salyan",
+                  "value": "609"
+                },
+                {
+                  "label": "Surkhet",
+                  "value": "610"
+                },
+                {
+                  "label": "Bajura",
+                  "value": "701"
+                },
+                {
+                  "label": "Bajhang",
+                  "value": "702"
+                },
+                {
+                  "label": "Darchula",
+                  "value": "703"
+                },
+                {
+                  "label": "Baitadi",
+                  "value": "704"
+                },
+                {
+                  "label": "Dadeldhura",
+                  "value": "705"
+                },
+                {
+                  "label": "Doti",
+                  "value": "706"
+                },
+                {
+                  "label": "Achham",
+                  "value": "707"
+                },
+                {
+                  "label": "Kailali",
+                  "value": "708"
+                },
+                {
+                  "label": "Kanchanpur",
+                  "value": "709"
+                }
+              ]
+            },
+            {
+              "label": "Local",
+              "name": "local",
+              "options": [
+                {
+                  "label": "Phaktanglung",
+                  "value": "10101"
+                },
+                {
+                  "label": "Mikwakhola",
+                  "value": "10102"
+                },
+                {
+                  "label": "Meringden",
+                  "value": "10103"
+                },
+                {
+                  "label": "Maiwakhola",
+                  "value": "10104"
+                },
+                {
+                  "label": "Aathrai Tribeni",
+                  "value": "10105"
+                },
+                {
+                  "label": "Phungling",
+                  "value": "10106"
+                },
+                {
+                  "label": "Yangwarak",
+                  "value": "10107"
+                },
+                {
+                  "label": "Sirijangha",
+                  "value": "10108"
+                },
+                {
+                  "label": "Sidingba",
+                  "value": "10109"
+                },
+                {
+                  "label": "Bhotkhola",
+                  "value": "10201"
+                },
+                {
+                  "label": "Makalu",
+                  "value": "10202"
+                },
+                {
+                  "label": "Silichong",
+                  "value": "10203"
+                },
+                {
+                  "label": "Chichila",
+                  "value": "10204"
+                },
+                {
+                  "label": "Sabhapokhari",
+                  "value": "10205"
+                },
+                {
+                  "label": "Khandbari",
+                  "value": "10206"
+                },
+                {
+                  "label": "Panchakhapan",
+                  "value": "10207"
+                },
+                {
+                  "label": "Chainpur",
+                  "value": "10208"
+                },
+                {
+                  "label": "Madi",
+                  "value": "10209"
+                },
+                {
+                  "label": "Dharmadevi",
+                  "value": "10210"
+                },
+                {
+                  "label": "Khumbupasanglahmu",
+                  "value": "10301"
+                },
+                {
+                  "label": "Mahakulung",
+                  "value": "10302"
+                },
+                {
+                  "label": "Sotang",
+                  "value": "10303"
+                },
+                {
+                  "label": "Dudhkoshi",
+                  "value": "10304"
+                },
+                {
+                  "label": "Dudhkaushika",
+                  "value": "10305"
+                },
+                {
+                  "label": "Nechasalyan",
+                  "value": "10306"
+                },
+                {
+                  "label": "Solududhakunda",
+                  "value": "10307"
+                },
+                {
+                  "label": "Likhupike",
+                  "value": "10308"
+                },
+                {
+                  "label": "Chisankhugadhi",
+                  "value": "10401"
+                },
+                {
+                  "label": "Siddhicharan",
+                  "value": "10402"
+                },
+                {
+                  "label": "Molung",
+                  "value": "10403"
+                },
+                {
+                  "label": "Khijidemba",
+                  "value": "10404"
+                },
+                {
+                  "label": "Likhu",
+                  "value": "10405"
+                },
+                {
+                  "label": "Champadevi",
+                  "value": "10406"
+                },
+                {
+                  "label": "Sunkoshi",
+                  "value": "10407"
+                },
+                {
+                  "label": "Manebhanjyang",
+                  "value": "10408"
+                },
+                {
+                  "label": "Kepilasagadhi",
+                  "value": "10501"
+                },
+                {
+                  "label": "Ainselukhark",
+                  "value": "10502"
+                },
+                {
+                  "label": "Lamidanda",
+                  "value": "10503"
+                },
+                {
+                  "label": "Halesi Tuwachung",
+                  "value": "10504"
+                },
+                {
+                  "label": "Rupakot Majhuwagadhi",
+                  "value": "10505"
+                },
+                {
+                  "label": "Sakela",
+                  "value": "10506"
+                },
+                {
+                  "label": "Diprung",
+                  "value": "10507"
+                },
+                {
+                  "label": "Khotehang",
+                  "value": "10508"
+                },
+                {
+                  "label": "Jantedhunga",
+                  "value": "10509"
+                },
+                {
+                  "label": "Barahapokhari",
+                  "value": "10510"
+                },
+                {
+                  "label": "Shadananda",
+                  "value": "10601"
+                },
+                {
+                  "label": "Salpasilichho",
+                  "value": "10602"
+                },
+                {
+                  "label": "Tyamkemaiyung",
+                  "value": "10603"
+                },
+                {
+                  "label": "Bhojpur",
+                  "value": "10604"
+                },
+                {
+                  "label": "Arun",
+                  "value": "10605"
+                },
+                {
+                  "label": "Pauwadungma",
+                  "value": "10606"
+                },
+                {
+                  "label": "Ramprasad Rai",
+                  "value": "10607"
+                },
+                {
+                  "label": "Hatuwagadhi",
+                  "value": "10608"
+                },
+                {
+                  "label": "Aamchowk",
+                  "value": "10609"
+                },
+                {
+                  "label": "Mahalaxmi",
+                  "value": "10701"
+                },
+                {
+                  "label": "Pakhribas",
+                  "value": "10702"
+                },
+                {
+                  "label": "Chhathar Jorpati",
+                  "value": "10703"
+                },
+                {
+                  "label": "Dhankuta",
+                  "value": "10704"
+                },
+                {
+                  "label": "Khalsa Chhintang Shahidbhumi",
+                  "value": "10705"
+                },
+                {
+                  "label": "Sangurigadhi",
+                  "value": "10706"
+                },
+                {
+                  "label": "Chaubise",
+                  "value": "10707"
+                },
+                {
+                  "label": "Aathrai",
+                  "value": "10801"
+                },
+                {
+                  "label": "Phedap",
+                  "value": "10802"
+                },
+                {
+                  "label": "Menchayam",
+                  "value": "10803"
+                },
+                {
+                  "label": "Myanglung",
+                  "value": "10804"
+                },
+                {
+                  "label": "Laligurans",
+                  "value": "10805"
+                },
+                {
+                  "label": "Chhathar",
+                  "value": "10806"
+                },
+                {
+                  "label": "Yangwarak",
+                  "value": "10901"
+                },
+                {
+                  "label": "Hilihang",
+                  "value": "10902"
+                },
+                {
+                  "label": "Falelung",
+                  "value": "10903"
+                },
+                {
+                  "label": "Phidim",
+                  "value": "10904"
+                },
+                {
+                  "label": "Falgunanda",
+                  "value": "10905"
+                },
+                {
+                  "label": "Kummayak",
+                  "value": "10906"
+                },
+                {
+                  "label": "Tumbewa",
+                  "value": "10907"
+                },
+                {
+                  "label": "Miklajung",
+                  "value": "10908"
+                },
+                {
+                  "label": "Maijogmai",
+                  "value": "11001"
+                },
+                {
+                  "label": "Sandakpur",
+                  "value": "11002"
+                },
+                {
+                  "label": "Illam",
+                  "value": "11003"
+                },
+                {
+                  "label": "Deumai",
+                  "value": "11004"
+                },
+                {
+                  "label": "Fakphokthum",
+                  "value": "11005"
+                },
+                {
+                  "label": "Mangsebung",
+                  "value": "11006"
+                },
+                {
+                  "label": "Chulachuli",
+                  "value": "11007"
+                },
+                {
+                  "label": "Mai",
+                  "value": "11008"
+                },
+                {
+                  "label": "Suryodaya",
+                  "value": "11009"
+                },
+                {
+                  "label": "Rong",
+                  "value": "11010"
+                },
+                {
+                  "label": "Mechinagar",
+                  "value": "11101"
+                },
+                {
+                  "label": "Buddhashanti",
+                  "value": "11102"
+                },
+                {
+                  "label": "Arjundhara",
+                  "value": "11103"
+                },
+                {
+                  "label": "Kankai",
+                  "value": "11104"
+                },
+                {
+                  "label": "Shivasataxi",
+                  "value": "11105"
+                },
+                {
+                  "label": "Kamal",
+                  "value": "11106"
+                },
+                {
+                  "label": "Damak",
+                  "value": "11107"
+                },
+                {
+                  "label": "Gauradhaha",
+                  "value": "11108"
+                },
+                {
+                  "label": "Gauriganj",
+                  "value": "11109"
+                },
+                {
+                  "label": "Jhapa",
+                  "value": "11110"
+                },
+                {
+                  "label": "Barhadashi",
+                  "value": "11111"
+                },
+                {
+                  "label": "Birtamod",
+                  "value": "11112"
+                },
+                {
+                  "label": "Haldibari",
+                  "value": "11113"
+                },
+                {
+                  "label": "Bhadrapur",
+                  "value": "11114"
+                },
+                {
+                  "label": "Kachankawal",
+                  "value": "11115"
+                },
+                {
+                  "label": "Miklajung",
+                  "value": "11201"
+                },
+                {
+                  "label": "Letang",
+                  "value": "11202"
+                },
+                {
+                  "label": "Kerabari",
+                  "value": "11203"
+                },
+                {
+                  "label": "Sundarharaicha",
+                  "value": "11204"
+                },
+                {
+                  "label": "Belbari",
+                  "value": "11205"
+                },
+                {
+                  "label": "Kanepokhari",
+                  "value": "11206"
+                },
+                {
+                  "label": "Patahrishanishchare",
+                  "value": "11207"
+                },
+                {
+                  "label": "Uralabari",
+                  "value": "11208"
+                },
+                {
+                  "label": "Ratuwamai",
+                  "value": "11209"
+                },
+                {
+                  "label": "Sunwarshi",
+                  "value": "11210"
+                },
+                {
+                  "label": "Rangeli",
+                  "value": "11211"
+                },
+                {
+                  "label": "Gramthan",
+                  "value": "11212"
+                },
+                {
+                  "label": "Budhiganga",
+                  "value": "11213"
+                },
+                {
+                  "label": "Biratnagar",
+                  "value": "11214"
+                },
+                {
+                  "label": "Katahari",
+                  "value": "11215"
+                },
+                {
+                  "label": "Dhanpalthan",
+                  "value": "11216"
+                },
+                {
+                  "label": "Jahada",
+                  "value": "11217"
+                },
+                {
+                  "label": "Dharan",
+                  "value": "11301"
+                },
+                {
+                  "label": "Barah",
+                  "value": "11302"
+                },
+                {
+                  "label": "Koshi",
+                  "value": "11303"
+                },
+                {
+                  "label": "Bhokraha",
+                  "value": "11304"
+                },
+                {
+                  "label": "Ramdhuni",
+                  "value": "11305"
+                },
+                {
+                  "label": "Itahari",
+                  "value": "11306"
+                },
+                {
+                  "label": "Duhabi",
+                  "value": "11307"
+                },
+                {
+                  "label": "Gadhi",
+                  "value": "11308"
+                },
+                {
+                  "label": "Inaruwa",
+                  "value": "11309"
+                },
+                {
+                  "label": "Harinagara",
+                  "value": "11310"
+                },
+                {
+                  "label": "Dewanganj",
+                  "value": "11311"
+                },
+                {
+                  "label": "Barju",
+                  "value": "11312"
+                },
+                {
+                  "label": "Belaka",
+                  "value": "11401"
+                },
+                {
+                  "label": "Chaudandigadhi",
+                  "value": "11402"
+                },
+                {
+                  "label": "Triyuga",
+                  "value": "11403"
+                },
+                {
+                  "label": "Rautamai",
+                  "value": "11404"
+                },
+                {
+                  "label": "Sunkoshi",
+                  "value": "11405"
+                },
+                {
+                  "label": "Tapli",
+                  "value": "11406"
+                },
+                {
+                  "label": "Katari",
+                  "value": "11407"
+                },
+                {
+                  "label": "Udayapurgadhi",
+                  "value": "11408"
+                },
+                {
+                  "label": "Saptakoshi",
+                  "value": "20101"
+                },
+                {
+                  "label": "Kanchanrup",
+                  "value": "20102"
+                },
+                {
+                  "label": "Agnisair Krishna Savaran",
+                  "value": "20103"
+                },
+                {
+                  "label": "Rupani",
+                  "value": "20104"
+                },
+                {
+                  "label": "Shambhunath",
+                  "value": "20105"
+                },
+                {
+                  "label": "Khadak",
+                  "value": "20106"
+                },
+                {
+                  "label": "Surunga",
+                  "value": "20107"
+                },
+                {
+                  "label": "Balan Bihul",
+                  "value": "20108"
+                },
+                {
+                  "label": "Bode Barsain",
+                  "value": "20109"
+                },
+                {
+                  "label": "Dakneshwori",
+                  "value": "20110"
+                },
+                {
+                  "label": "Belhi Chapena",
+                  "value": "20111"
+                },
+                {
+                  "label": "Bishnupur",
+                  "value": "20112"
+                },
+                {
+                  "label": "Rajbiraj",
+                  "value": "20113"
+                },
+                {
+                  "label": "Mahadeva",
+                  "value": "20114"
+                },
+                {
+                  "label": "Tirahut",
+                  "value": "20115"
+                },
+                {
+                  "label": "Hanumannagar Kankalini",
+                  "value": "20116"
+                },
+                {
+                  "label": "Tilathi Koiladi",
+                  "value": "20117"
+                },
+                {
+                  "label": "Chhinnamasta",
+                  "value": "20118"
+                },
+                {
+                  "label": "Lahan",
+                  "value": "20201"
+                },
+                {
+                  "label": "Dhangadhimai",
+                  "value": "20202"
+                },
+                {
+                  "label": "Golbazar",
+                  "value": "20203"
+                },
+                {
+                  "label": "Mirchaiya",
+                  "value": "20204"
+                },
+                {
+                  "label": "Karjanha",
+                  "value": "20205"
+                },
+                {
+                  "label": "Kalyanpur",
+                  "value": "20206"
+                },
+                {
+                  "label": "Naraha",
+                  "value": "20207"
+                },
+                {
+                  "label": "Bishnupur",
+                  "value": "20208"
+                },
+                {
+                  "label": "Arnama",
+                  "value": "20209"
+                },
+                {
+                  "label": "Sukhipur",
+                  "value": "20210"
+                },
+                {
+                  "label": "Laxmipur Patari",
+                  "value": "20211"
+                },
+                {
+                  "label": "Sakhuwanankarkatti",
+                  "value": "20212"
+                },
+                {
+                  "label": "Bhagawanpur",
+                  "value": "20213"
+                },
+                {
+                  "label": "Nawarajpur",
+                  "value": "20214"
+                },
+                {
+                  "label": "Bariyarpatti",
+                  "value": "20215"
+                },
+                {
+                  "label": "Aurahi",
+                  "value": "20216"
+                },
+                {
+                  "label": "Siraha",
+                  "value": "20217"
+                },
+                {
+                  "label": "Ganeshman Charnath",
+                  "value": "20301"
+                },
+                {
+                  "label": "Dhanusadham",
+                  "value": "20302"
+                },
+                {
+                  "label": "Mithila",
+                  "value": "20303"
+                },
+                {
+                  "label": "Bateshwor",
+                  "value": "20304"
+                },
+                {
+                  "label": "Chhireshwornath",
+                  "value": "20305"
+                },
+                {
+                  "label": "Lakshminiya",
+                  "value": "20306"
+                },
+                {
+                  "label": "Mithila Bihari",
+                  "value": "20307"
+                },
+                {
+                  "label": "Hansapur",
+                  "value": "20308"
+                },
+                {
+                  "label": "Sabaila",
+                  "value": "20309"
+                },
+                {
+                  "label": "Sahidnagar",
+                  "value": "20310"
+                },
+                {
+                  "label": "Kamala",
+                  "value": "20311"
+                },
+                {
+                  "label": "Janaknandani",
+                  "value": "20312"
+                },
+                {
+                  "label": "Bideha",
+                  "value": "20313"
+                },
+                {
+                  "label": "Aaurahi",
+                  "value": "20314"
+                },
+                {
+                  "label": "Janakpur",
+                  "value": "20315"
+                },
+                {
+                  "label": "Dhanauji",
+                  "value": "20316"
+                },
+                {
+                  "label": "Nagarain",
+                  "value": "20317"
+                },
+                {
+                  "label": "Mukhiyapatti Musarmiya",
+                  "value": "20318"
+                },
+                {
+                  "label": "Bardibas",
+                  "value": "20401"
+                },
+                {
+                  "label": "Gaushala",
+                  "value": "20402"
+                },
+                {
+                  "label": "Sonama",
+                  "value": "20403"
+                },
+                {
+                  "label": "Aurahi",
+                  "value": "20404"
+                },
+                {
+                  "label": "Bhangaha",
+                  "value": "20405"
+                },
+                {
+                  "label": "Loharpatti",
+                  "value": "20406"
+                },
+                {
+                  "label": "Balwa",
+                  "value": "20407"
+                },
+                {
+                  "label": "Ramgopalpur",
+                  "value": "20408"
+                },
+                {
+                  "label": "Samsi",
+                  "value": "20409"
+                },
+                {
+                  "label": "Manra Siswa",
+                  "value": "20410"
+                },
+                {
+                  "label": "Ekdanra",
+                  "value": "20411"
+                },
+                {
+                  "label": "Mahottari",
+                  "value": "20412"
+                },
+                {
+                  "label": "Pipra",
+                  "value": "20413"
+                },
+                {
+                  "label": "Matihani",
+                  "value": "20414"
+                },
+                {
+                  "label": "Jaleswor",
+                  "value": "20415"
+                },
+                {
+                  "label": "Lalbandi",
+                  "value": "20501"
+                },
+                {
+                  "label": "Hariwan",
+                  "value": "20502"
+                },
+                {
+                  "label": "Bagmati",
+                  "value": "20503"
+                },
+                {
+                  "label": "Barahathawa",
+                  "value": "20504"
+                },
+                {
+                  "label": "Haripur",
+                  "value": "20505"
+                },
+                {
+                  "label": "Ishworpur",
+                  "value": "20506"
+                },
+                {
+                  "label": "Haripurwa",
+                  "value": "20507"
+                },
+                {
+                  "label": "Parsa",
+                  "value": "20508"
+                },
+                {
+                  "label": "Bramhapuri",
+                  "value": "20509"
+                },
+                {
+                  "label": "Chandranagar",
+                  "value": "20510"
+                },
+                {
+                  "label": "Kabilasi",
+                  "value": "20511"
+                },
+                {
+                  "label": "Chakraghatta",
+                  "value": "20512"
+                },
+                {
+                  "label": "Basbariya",
+                  "value": "20513"
+                },
+                {
+                  "label": "Dhankaul",
+                  "value": "20514"
+                },
+                {
+                  "label": "Ramnagar",
+                  "value": "20515"
+                },
+                {
+                  "label": "Balara",
+                  "value": "20516"
+                },
+                {
+                  "label": "Godaita",
+                  "value": "20517"
+                },
+                {
+                  "label": "Bishnu",
+                  "value": "20518"
+                },
+                {
+                  "label": "Kaudena",
+                  "value": "20519"
+                },
+                {
+                  "label": "Malangawa",
+                  "value": "20520"
+                },
+                {
+                  "label": "Chandrapur",
+                  "value": "20601"
+                },
+                {
+                  "label": "Gujara",
+                  "value": "20602"
+                },
+                {
+                  "label": "Phatuwa Bijayapur",
+                  "value": "20603"
+                },
+                {
+                  "label": "Katahariya",
+                  "value": "20604"
+                },
+                {
+                  "label": "Brindaban",
+                  "value": "20605"
+                },
+                {
+                  "label": "Gadhimai",
+                  "value": "20606"
+                },
+                {
+                  "label": "Madhav Narayan",
+                  "value": "20607"
+                },
+                {
+                  "label": "Garuda",
+                  "value": "20608"
+                },
+                {
+                  "label": "Dewahhi Gonahi",
+                  "value": "20609"
+                },
+                {
+                  "label": "Maulapur",
+                  "value": "20610"
+                },
+                {
+                  "label": "Baudhimai",
+                  "value": "20611"
+                },
+                {
+                  "label": "Paroha",
+                  "value": "20612"
+                },
+                {
+                  "label": "Rajpur",
+                  "value": "20613"
+                },
+                {
+                  "label": "Yemunamai",
+                  "value": "20614"
+                },
+                {
+                  "label": "Durga Bhagwati",
+                  "value": "20615"
+                },
+                {
+                  "label": "Rajdevi",
+                  "value": "20616"
+                },
+                {
+                  "label": "Gaur",
+                  "value": "20617"
+                },
+                {
+                  "label": "Ishanath",
+                  "value": "20618"
+                },
+                {
+                  "label": "Nijgadh",
+                  "value": "20701"
+                },
+                {
+                  "label": "Kolhabi",
+                  "value": "20702"
+                },
+                {
+                  "label": "Jitpur Simara",
+                  "value": "20703"
+                },
+                {
+                  "label": "Parwanipur",
+                  "value": "20704"
+                },
+                {
+                  "label": "Prasauni",
+                  "value": "20705"
+                },
+                {
+                  "label": "Bishrampur",
+                  "value": "20706"
+                },
+                {
+                  "label": "Pheta",
+                  "value": "20707"
+                },
+                {
+                  "label": "Kalaiya",
+                  "value": "20708"
+                },
+                {
+                  "label": "Karaiyamai",
+                  "value": "20709"
+                },
+                {
+                  "label": "Baragadhi",
+                  "value": "20710"
+                },
+                {
+                  "label": "Adarshkotwal",
+                  "value": "20711"
+                },
+                {
+                  "label": "Simraungadh",
+                  "value": "20712"
+                },
+                {
+                  "label": "Pacharauta",
+                  "value": "20713"
+                },
+                {
+                  "label": "Mahagadhimai",
+                  "value": "20714"
+                },
+                {
+                  "label": "Devtal",
+                  "value": "20715"
+                },
+                {
+                  "label": "Suwarna",
+                  "value": "20716"
+                },
+                {
+                  "label": "Thori",
+                  "value": "20801"
+                },
+                {
+                  "label": "Jirabhawani",
+                  "value": "20802"
+                },
+                {
+                  "label": "Jagarnathpur",
+                  "value": "20803"
+                },
+                {
+                  "label": "Paterwasugauli",
+                  "value": "20804"
+                },
+                {
+                  "label": "SakhuwaPrasauni",
+                  "value": "20805"
+                },
+                {
+                  "label": "Parsagadhi",
+                  "value": "20806"
+                },
+                {
+                  "label": "Birgunj",
+                  "value": "20807"
+                },
+                {
+                  "label": "Bahudaramai",
+                  "value": "20808"
+                },
+                {
+                  "label": "Pokhariya",
+                  "value": "20809"
+                },
+                {
+                  "label": "Kalikamai",
+                  "value": "20810"
+                },
+                {
+                  "label": "Dhobini",
+                  "value": "20811"
+                },
+                {
+                  "label": "Chhipaharmai",
+                  "value": "20812"
+                },
+                {
+                  "label": "Pakahamainpur",
+                  "value": "20813"
+                },
+                {
+                  "label": "Bindabasini",
+                  "value": "20814"
+                },
+                {
+                  "label": "Gaurishankar",
+                  "value": "30101"
+                },
+                {
+                  "label": "Bigu",
+                  "value": "30102"
+                },
+                {
+                  "label": "Kalinchok",
+                  "value": "30103"
+                },
+                {
+                  "label": "Baiteshwor",
+                  "value": "30104"
+                },
+                {
+                  "label": "Jiri",
+                  "value": "30105"
+                },
+                {
+                  "label": "Tamakoshi",
+                  "value": "30106"
+                },
+                {
+                  "label": "Melung",
+                  "value": "30107"
+                },
+                {
+                  "label": "Sailung",
+                  "value": "30108"
+                },
+                {
+                  "label": "Bhimeshwor",
+                  "value": "30109"
+                },
+                {
+                  "label": "Bhotekoshi",
+                  "value": "30201"
+                },
+                {
+                  "label": "Jugal",
+                  "value": "30202"
+                },
+                {
+                  "label": "Panchpokhari Thangpal",
+                  "value": "30203"
+                },
+                {
+                  "label": "Helambu",
+                  "value": "30204"
+                },
+                {
+                  "label": "Melamchi",
+                  "value": "30205"
+                },
+                {
+                  "label": "Indrawati",
+                  "value": "30206"
+                },
+                {
+                  "label": "Chautara SangachokGadhi",
+                  "value": "30207"
+                },
+                {
+                  "label": "Balefi",
+                  "value": "30208"
+                },
+                {
+                  "label": "Barhabise",
+                  "value": "30209"
+                },
+                {
+                  "label": "Tripurasundari",
+                  "value": "30210"
+                },
+                {
+                  "label": "Lisangkhu Pakhar",
+                  "value": "30211"
+                },
+                {
+                  "label": "Sunkoshi",
+                  "value": "30212"
+                },
+                {
+                  "label": "Gosaikunda",
+                  "value": "30301"
+                },
+                {
+                  "label": "Parbati Kunda",
+                  "value": "30302"
+                },
+                {
+                  "label": "Uttargaya",
+                  "value": "30303"
+                },
+                {
+                  "label": "Kalika",
+                  "value": "30304"
+                },
+                {
+                  "label": "Naukunda",
+                  "value": "30305"
+                },
+                {
+                  "label": "Rubi Valley",
+                  "value": "30401"
+                },
+                {
+                  "label": "Khaniyabash",
+                  "value": "30402"
+                },
+                {
+                  "label": "Gangajamuna",
+                  "value": "30403"
+                },
+                {
+                  "label": "Tripura Sundari",
+                  "value": "30404"
+                },
+                {
+                  "label": "Netrawati",
+                  "value": "30405"
+                },
+                {
+                  "label": "Nilakantha",
+                  "value": "30406"
+                },
+                {
+                  "label": "Jwalamukhi",
+                  "value": "30407"
+                },
+                {
+                  "label": "Siddhalek",
+                  "value": "30408"
+                },
+                {
+                  "label": "Benighat Rorang",
+                  "value": "30409"
+                },
+                {
+                  "label": "Gajuri",
+                  "value": "30410"
+                },
+                {
+                  "label": "Galchi",
+                  "value": "30411"
+                },
+                {
+                  "label": "Thakre",
+                  "value": "30412"
+                },
+                {
+                  "label": "Dhunibesi",
+                  "value": "30413"
+                },
+                {
+                  "label": "Dupcheshwar",
+                  "value": "30501"
+                },
+                {
+                  "label": "Tadi",
+                  "value": "30502"
+                },
+                {
+                  "label": "Suryagadhi",
+                  "value": "30503"
+                },
+                {
+                  "label": "Bidur",
+                  "value": "30504"
+                },
+                {
+                  "label": "Kispang",
+                  "value": "30505"
+                },
+                {
+                  "label": "Meghang",
+                  "value": "30506"
+                },
+                {
+                  "label": "Tarkeshwar",
+                  "value": "30507"
+                },
+                {
+                  "label": "Belkotgadhi",
+                  "value": "30508"
+                },
+                {
+                  "label": "Likhu",
+                  "value": "30509"
+                },
+                {
+                  "label": "Panchakanya",
+                  "value": "30510"
+                },
+                {
+                  "label": "Shivapuri",
+                  "value": "30511"
+                },
+                {
+                  "label": "Kakani",
+                  "value": "30512"
+                },
+                {
+                  "label": "Shankharapur",
+                  "value": "30601"
+                },
+                {
+                  "label": "Kageshwori Manahora",
+                  "value": "30602"
+                },
+                {
+                  "label": "Gokarneshwor",
+                  "value": "30603"
+                },
+                {
+                  "label": "Budhanilakantha",
+                  "value": "30604"
+                },
+                {
+                  "label": "Tokha",
+                  "value": "30605"
+                },
+                {
+                  "label": "Tarakeshwor",
+                  "value": "30606"
+                },
+                {
+                  "label": "Nagarjun",
+                  "value": "30607"
+                },
+                {
+                  "label": "Kathmandu",
+                  "value": "30608"
+                },
+                {
+                  "label": "Kirtipur",
+                  "value": "30609"
+                },
+                {
+                  "label": "Chandragiri",
+                  "value": "30610"
+                },
+                {
+                  "label": "Dakshinkali",
+                  "value": "30611"
+                },
+                {
+                  "label": "Changunarayan",
+                  "value": "30701"
+                },
+                {
+                  "label": "Bhaktapur",
+                  "value": "30702"
+                },
+                {
+                  "label": "Madhyapur Thimi",
+                  "value": "30703"
+                },
+                {
+                  "label": "Suryabinayak",
+                  "value": "30704"
+                },
+                {
+                  "label": "Mahalaxmi",
+                  "value": "30801"
+                },
+                {
+                  "label": "Lalitpur",
+                  "value": "30802"
+                },
+                {
+                  "label": "Godawari",
+                  "value": "30803"
+                },
+                {
+                  "label": "Konjyosom",
+                  "value": "30804"
+                },
+                {
+                  "label": "Mahankal",
+                  "value": "30805"
+                },
+                {
+                  "label": "Bagmati",
+                  "value": "30806"
+                },
+                {
+                  "label": "Chaurideurali",
+                  "value": "30901"
+                },
+                {
+                  "label": "Bhumlu",
+                  "value": "30902"
+                },
+                {
+                  "label": "Mandandeupur",
+                  "value": "30903"
+                },
+                {
+                  "label": "Banepa",
+                  "value": "30904"
+                },
+                {
+                  "label": "Dhulikhel",
+                  "value": "30905"
+                },
+                {
+                  "label": "Panchkhal",
+                  "value": "30906"
+                },
+                {
+                  "label": "Temal",
+                  "value": "30907"
+                },
+                {
+                  "label": "Namobuddha",
+                  "value": "30908"
+                },
+                {
+                  "label": "Panauti",
+                  "value": "30909"
+                },
+                {
+                  "label": "Bethanchowk",
+                  "value": "30910"
+                },
+                {
+                  "label": "Roshi",
+                  "value": "30911"
+                },
+                {
+                  "label": "Mahabharat",
+                  "value": "30912"
+                },
+                {
+                  "label": "Khanikhola",
+                  "value": "30913"
+                },
+                {
+                  "label": "Umakunda",
+                  "value": "31001"
+                },
+                {
+                  "label": "Gokulganga",
+                  "value": "31002"
+                },
+                {
+                  "label": "Likhu",
+                  "value": "31003"
+                },
+                {
+                  "label": "Ramechhap",
+                  "value": "31004"
+                },
+                {
+                  "label": "Manthali",
+                  "value": "31005"
+                },
+                {
+                  "label": "Khadadevi",
+                  "value": "31006"
+                },
+                {
+                  "label": "Doramba",
+                  "value": "31007"
+                },
+                {
+                  "label": "Sunapati",
+                  "value": "31008"
+                },
+                {
+                  "label": "Dudhouli",
+                  "value": "31101"
+                },
+                {
+                  "label": "Phikkal",
+                  "value": "31102"
+                },
+                {
+                  "label": "Tinpatan",
+                  "value": "31103"
+                },
+                {
+                  "label": "Golanjor",
+                  "value": "31104"
+                },
+                {
+                  "label": "Kamalamai",
+                  "value": "31105"
+                },
+                {
+                  "label": "Sunkoshi",
+                  "value": "31106"
+                },
+                {
+                  "label": "Ghanglekh",
+                  "value": "31107"
+                },
+                {
+                  "label": "Marin",
+                  "value": "31108"
+                },
+                {
+                  "label": "Hariharpurgadhi",
+                  "value": "31109"
+                },
+                {
+                  "label": "Indrasarowar",
+                  "value": "31201"
+                },
+                {
+                  "label": "Thaha",
+                  "value": "31202"
+                },
+                {
+                  "label": "Kailash",
+                  "value": "31203"
+                },
+                {
+                  "label": "Raksirang",
+                  "value": "31204"
+                },
+                {
+                  "label": "Manahari",
+                  "value": "31205"
+                },
+                {
+                  "label": "Hetauda",
+                  "value": "31206"
+                },
+                {
+                  "label": "Bhimphedi",
+                  "value": "31207"
+                },
+                {
+                  "label": "Makawanpurgadhi",
+                  "value": "31208"
+                },
+                {
+                  "label": "Bakaiya",
+                  "value": "31209"
+                },
+                {
+                  "label": "Bagmati",
+                  "value": "31210"
+                },
+                {
+                  "label": "Rapti",
+                  "value": "31301"
+                },
+                {
+                  "label": "Kalika",
+                  "value": "31302"
+                },
+                {
+                  "label": "Ichchhyakamana",
+                  "value": "31303"
+                },
+                {
+                  "label": "Bharatpur",
+                  "value": "31304"
+                },
+                {
+                  "label": "Ratnanagar",
+                  "value": "31305"
+                },
+                {
+                  "label": "Khairahani",
+                  "value": "31306"
+                },
+                {
+                  "label": "Madi",
+                  "value": "31307"
+                },
+                {
+                  "label": "Chum Nubri",
+                  "value": "40101"
+                },
+                {
+                  "label": "Ajirkot",
+                  "value": "40102"
+                },
+                {
+                  "label": "Sulikot",
+                  "value": "40103"
+                },
+                {
+                  "label": "Dharche",
+                  "value": "40104"
+                },
+                {
+                  "label": "Aarughat",
+                  "value": "40105"
+                },
+                {
+                  "label": "Bhimsen",
+                  "value": "40106"
+                },
+                {
+                  "label": "Siranchok",
+                  "value": "40107"
+                },
+                {
+                  "label": "Palungtar",
+                  "value": "40108"
+                },
+                {
+                  "label": "Gorkha",
+                  "value": "40109"
+                },
+                {
+                  "label": "Sahid Lakhan",
+                  "value": "40110"
+                },
+                {
+                  "label": "Gandaki",
+                  "value": "40111"
+                },
+                {
+                  "label": "Narphu",
+                  "value": "40201"
+                },
+                {
+                  "label": "Neshyang",
+                  "value": "40202"
+                },
+                {
+                  "label": "Chame",
+                  "value": "40203"
+                },
+                {
+                  "label": "Nashong",
+                  "value": "40204"
+                },
+                {
+                  "label": "Dalome",
+                  "value": "40301"
+                },
+                {
+                  "label": "Gharapjhong",
+                  "value": "40302"
+                },
+                {
+                  "label": "Barhagaun Muktikhsetra",
+                  "value": "40303"
+                },
+                {
+                  "label": "Lomanthang",
+                  "value": "40304"
+                },
+                {
+                  "label": "Thasang",
+                  "value": "40305"
+                },
+                {
+                  "label": "Annapurna",
+                  "value": "40401"
+                },
+                {
+                  "label": "Raghuganga",
+                  "value": "40402"
+                },
+                {
+                  "label": "Dhaulagiri",
+                  "value": "40403"
+                },
+                {
+                  "label": "Malika",
+                  "value": "40404"
+                },
+                {
+                  "label": "Mangala",
+                  "value": "40405"
+                },
+                {
+                  "label": "Beni",
+                  "value": "40406"
+                },
+                {
+                  "label": "Madi",
+                  "value": "40501"
+                },
+                {
+                  "label": "Machhapuchchhre",
+                  "value": "40502"
+                },
+                {
+                  "label": "Annapurna",
+                  "value": "40503"
+                },
+                {
+                  "label": "Pokhara Lekhnath",
+                  "value": "40504"
+                },
+                {
+                  "label": "Rupa",
+                  "value": "40505"
+                },
+                {
+                  "label": "Dordi",
+                  "value": "40601"
+                },
+                {
+                  "label": "Marsyangdi",
+                  "value": "40602"
+                },
+                {
+                  "label": "Kwholasothar",
+                  "value": "40603"
+                },
+                {
+                  "label": "MadhyaNepal",
+                  "value": "40604"
+                },
+                {
+                  "label": "Besishahar",
+                  "value": "40605"
+                },
+                {
+                  "label": "Sundarbazar",
+                  "value": "40606"
+                },
+                {
+                  "label": "Rainas",
+                  "value": "40607"
+                },
+                {
+                  "label": "Dudhpokhari",
+                  "value": "40608"
+                },
+                {
+                  "label": "Bhanu",
+                  "value": "40701"
+                },
+                {
+                  "label": "Byas",
+                  "value": "40702"
+                },
+                {
+                  "label": "Myagde",
+                  "value": "40703"
+                },
+                {
+                  "label": "Shuklagandaki",
+                  "value": "40704"
+                },
+                {
+                  "label": "Bhimad",
+                  "value": "40705"
+                },
+                {
+                  "label": "Ghiring",
+                  "value": "40706"
+                },
+                {
+                  "label": "Rhishing",
+                  "value": "40707"
+                },
+                {
+                  "label": "Devghat",
+                  "value": "40708"
+                },
+                {
+                  "label": "Bandipur",
+                  "value": "40709"
+                },
+                {
+                  "label": "Anbukhaireni",
+                  "value": "40710"
+                },
+                {
+                  "label": "Gaidakot",
+                  "value": "40801"
+                },
+                {
+                  "label": "Bulingtar",
+                  "value": "40802"
+                },
+                {
+                  "label": "Bungdikali",
+                  "value": "40803"
+                },
+                {
+                  "label": "Hupsekot",
+                  "value": "40804"
+                },
+                {
+                  "label": "Devchuli",
+                  "value": "40805"
+                },
+                {
+                  "label": "Kawasoti",
+                  "value": "40806"
+                },
+                {
+                  "label": "Madhyabindu",
+                  "value": "40807"
+                },
+                {
+                  "label": "Binayee Tribeni",
+                  "value": "40808"
+                },
+                {
+                  "label": "Putalibazar",
+                  "value": "40901"
+                },
+                {
+                  "label": "Phedikhola",
+                  "value": "40902"
+                },
+                {
+                  "label": "Aandhikhola",
+                  "value": "40903"
+                },
+                {
+                  "label": "Arjunchaupari",
+                  "value": "40904"
+                },
+                {
+                  "label": "Bhirkot",
+                  "value": "40905"
+                },
+                {
+                  "label": "Biruwa",
+                  "value": "40906"
+                },
+                {
+                  "label": "Harinas",
+                  "value": "40907"
+                },
+                {
+                  "label": "Chapakot",
+                  "value": "40908"
+                },
+                {
+                  "label": "Waling",
+                  "value": "40909"
+                },
+                {
+                  "label": "Galyang",
+                  "value": "40910"
+                },
+                {
+                  "label": "Kaligandagi",
+                  "value": "40911"
+                },
+                {
+                  "label": "Modi",
+                  "value": "41001"
+                },
+                {
+                  "label": "Jaljala",
+                  "value": "41002"
+                },
+                {
+                  "label": "Kushma",
+                  "value": "41003"
+                },
+                {
+                  "label": "Phalebas",
+                  "value": "41004"
+                },
+                {
+                  "label": "Mahashila",
+                  "value": "41005"
+                },
+                {
+                  "label": "Bihadi",
+                  "value": "41006"
+                },
+                {
+                  "label": "Painyu",
+                  "value": "41007"
+                },
+                {
+                  "label": "Baglung",
+                  "value": "41101"
+                },
+                {
+                  "label": "Kanthekhola",
+                  "value": "41102"
+                },
+                {
+                  "label": "Tara Khola",
+                  "value": "41103"
+                },
+                {
+                  "label": "Taman Khola",
+                  "value": "41104"
+                },
+                {
+                  "label": "Dhorpatan",
+                  "value": "41105"
+                },
+                {
+                  "label": "Nisikhola",
+                  "value": "41106"
+                },
+                {
+                  "label": "Badigad",
+                  "value": "41107"
+                },
+                {
+                  "label": "Galkot",
+                  "value": "41108"
+                },
+                {
+                  "label": "Bareng",
+                  "value": "41109"
+                },
+                {
+                  "label": "Jaimuni",
+                  "value": "41110"
+                },
+                {
+                  "label": "Putha Uttarganga",
+                  "value": "50101"
+                },
+                {
+                  "label": "Sisne",
+                  "value": "50102"
+                },
+                {
+                  "label": "Bhume",
+                  "value": "50103"
+                },
+                {
+                  "label": "Sunchhahari",
+                  "value": "50201"
+                },
+                {
+                  "label": "Thawang",
+                  "value": "50202"
+                },
+                {
+                  "label": "Duikholi",
+                  "value": "50203"
+                },
+                {
+                  "label": "Sukidaha",
+                  "value": "50204"
+                },
+                {
+                  "label": "Madi",
+                  "value": "50205"
+                },
+                {
+                  "label": "Tribeni",
+                  "value": "50206"
+                },
+                {
+                  "label": "Rolpa",
+                  "value": "50207"
+                },
+                {
+                  "label": "Runtigadi",
+                  "value": "50208"
+                },
+                {
+                  "label": "Suwarnabati",
+                  "value": "50209"
+                },
+                {
+                  "label": "Lungri",
+                  "value": "50210"
+                },
+                {
+                  "label": "Gaumukhi",
+                  "value": "50301"
+                },
+                {
+                  "label": "Naubahini",
+                  "value": "50302"
+                },
+                {
+                  "label": "Jhimruk",
+                  "value": "50303"
+                },
+                {
+                  "label": "Pyuthan",
+                  "value": "50304"
+                },
+                {
+                  "label": "Sworgadwary",
+                  "value": "50305"
+                },
+                {
+                  "label": "Mandavi",
+                  "value": "50306"
+                },
+                {
+                  "label": "Mallarani",
+                  "value": "50307"
+                },
+                {
+                  "label": "Ayirabati",
+                  "value": "50308"
+                },
+                {
+                  "label": "Sarumarani",
+                  "value": "50309"
+                },
+                {
+                  "label": "Kaligandaki",
+                  "value": "50401"
+                },
+                {
+                  "label": "Satyawati",
+                  "value": "50402"
+                },
+                {
+                  "label": "Chandrakot",
+                  "value": "50403"
+                },
+                {
+                  "label": "Musikot",
+                  "value": "50404"
+                },
+                {
+                  "label": "Isma",
+                  "value": "50405"
+                },
+                {
+                  "label": "Malika",
+                  "value": "50406"
+                },
+                {
+                  "label": "Madane",
+                  "value": "50407"
+                },
+                {
+                  "label": "Dhurkot",
+                  "value": "50408"
+                },
+                {
+                  "label": "Resunga",
+                  "value": "50409"
+                },
+                {
+                  "label": "Gulmidarbar",
+                  "value": "50410"
+                },
+                {
+                  "label": "Chatrakot",
+                  "value": "50411"
+                },
+                {
+                  "label": "Ruru",
+                  "value": "50412"
+                },
+                {
+                  "label": "Chhatradev",
+                  "value": "50501"
+                },
+                {
+                  "label": "Malarani",
+                  "value": "50502"
+                },
+                {
+                  "label": "Bhumekasthan",
+                  "value": "50503"
+                },
+                {
+                  "label": "Sandhikharka",
+                  "value": "50504"
+                },
+                {
+                  "label": "Panini",
+                  "value": "50505"
+                },
+                {
+                  "label": "Sitganga",
+                  "value": "50506"
+                },
+                {
+                  "label": "Rampur",
+                  "value": "50601"
+                },
+                {
+                  "label": "Purbakhola",
+                  "value": "50602"
+                },
+                {
+                  "label": "Rambha",
+                  "value": "50603"
+                },
+                {
+                  "label": "Bagnaskali",
+                  "value": "50604"
+                },
+                {
+                  "label": "Tansen",
+                  "value": "50605"
+                },
+                {
+                  "label": "Ribdikot",
+                  "value": "50606"
+                },
+                {
+                  "label": "Rainadevi Chhahara",
+                  "value": "50607"
+                },
+                {
+                  "label": "Tinau",
+                  "value": "50608"
+                },
+                {
+                  "label": "Mathagadhi",
+                  "value": "50609"
+                },
+                {
+                  "label": "Nisdi",
+                  "value": "50610"
+                },
+                {
+                  "label": "Bardaghat",
+                  "value": "50701"
+                },
+                {
+                  "label": "Sunwal",
+                  "value": "50702"
+                },
+                {
+                  "label": "Ramgram",
+                  "value": "50703"
+                },
+                {
+                  "label": "Palhi Nandan",
+                  "value": "50704"
+                },
+                {
+                  "label": "Sarawal",
+                  "value": "50705"
+                },
+                {
+                  "label": "Pratappur",
+                  "value": "50706"
+                },
+                {
+                  "label": "Susta",
+                  "value": "50707"
+                },
+                {
+                  "label": "Devdaha",
+                  "value": "50801"
+                },
+                {
+                  "label": "Butwal",
+                  "value": "50802"
+                },
+                {
+                  "label": "Sainamaina",
+                  "value": "50803"
+                },
+                {
+                  "label": "Kanchan",
+                  "value": "50804"
+                },
+                {
+                  "label": "Gaidahawa",
+                  "value": "50805"
+                },
+                {
+                  "label": "Sudhdhodhan",
+                  "value": "50806"
+                },
+                {
+                  "label": "Siyari",
+                  "value": "50807"
+                },
+                {
+                  "label": "Tillotama",
+                  "value": "50808"
+                },
+                {
+                  "label": "Omsatiya",
+                  "value": "50809"
+                },
+                {
+                  "label": "Rohini",
+                  "value": "50810"
+                },
+                {
+                  "label": "Siddharthanagar",
+                  "value": "50811"
+                },
+                {
+                  "label": "Mayadevi",
+                  "value": "50812"
+                },
+                {
+                  "label": "Lumbini Sanskritik",
+                  "value": "50813"
+                },
+                {
+                  "label": "Kotahimai",
+                  "value": "50814"
+                },
+                {
+                  "label": "Sammarimai",
+                  "value": "50815"
+                },
+                {
+                  "label": "Marchawari",
+                  "value": "50816"
+                },
+                {
+                  "label": "Banganga",
+                  "value": "50901"
+                },
+                {
+                  "label": "Buddhabhumi",
+                  "value": "50902"
+                },
+                {
+                  "label": "Shivaraj",
+                  "value": "50903"
+                },
+                {
+                  "label": "Bijayanagar",
+                  "value": "50904"
+                },
+                {
+                  "label": "Krishnanagar",
+                  "value": "50905"
+                },
+                {
+                  "label": "Maharajgunj",
+                  "value": "50906"
+                },
+                {
+                  "label": "Kapilbastu",
+                  "value": "50907"
+                },
+                {
+                  "label": "Yashodhara",
+                  "value": "50908"
+                },
+                {
+                  "label": "Mayadevi",
+                  "value": "50909"
+                },
+                {
+                  "label": "Suddhodhan",
+                  "value": "50910"
+                },
+                {
+                  "label": "Banglachuli",
+                  "value": "51001"
+                },
+                {
+                  "label": "Ghorahi",
+                  "value": "51002"
+                },
+                {
+                  "label": "Tulsipur",
+                  "value": "51003"
+                },
+                {
+                  "label": "Shantinagar",
+                  "value": "51004"
+                },
+                {
+                  "label": "Babai",
+                  "value": "51005"
+                },
+                {
+                  "label": "Dangisharan",
+                  "value": "51006"
+                },
+                {
+                  "label": "Lamahi",
+                  "value": "51007"
+                },
+                {
+                  "label": "Rapti",
+                  "value": "51008"
+                },
+                {
+                  "label": "Gadhawa",
+                  "value": "51009"
+                },
+                {
+                  "label": "Rajpur",
+                  "value": "51010"
+                },
+                {
+                  "label": "Rapti Sonari",
+                  "value": "51101"
+                },
+                {
+                  "label": "Kohalpur",
+                  "value": "51102"
+                },
+                {
+                  "label": "Baijanath",
+                  "value": "51103"
+                },
+                {
+                  "label": "Khajura",
+                  "value": "51104"
+                },
+                {
+                  "label": "Janki",
+                  "value": "51105"
+                },
+                {
+                  "label": "Nepalgunj",
+                  "value": "51106"
+                },
+                {
+                  "label": "Duduwa",
+                  "value": "51107"
+                },
+                {
+                  "label": "Narainapur",
+                  "value": "51108"
+                },
+                {
+                  "label": "Bansagadhi",
+                  "value": "51201"
+                },
+                {
+                  "label": "Barbardiya",
+                  "value": "51202"
+                },
+                {
+                  "label": "Thakurbaba",
+                  "value": "51203"
+                },
+                {
+                  "label": "Geruwa",
+                  "value": "51204"
+                },
+                {
+                  "label": "Rajapur",
+                  "value": "51205"
+                },
+                {
+                  "label": "Madhuwan",
+                  "value": "51206"
+                },
+                {
+                  "label": "Gulariya",
+                  "value": "51207"
+                },
+                {
+                  "label": "Badhaiyatal",
+                  "value": "51208"
+                },
+                {
+                  "label": "Dolpo Buddha",
+                  "value": "60101"
+                },
+                {
+                  "label": "Shey Phoksundo",
+                  "value": "60102"
+                },
+                {
+                  "label": "Jagadulla",
+                  "value": "60103"
+                },
+                {
+                  "label": "Mudkechula",
+                  "value": "60104"
+                },
+                {
+                  "label": "Tripurasundari",
+                  "value": "60105"
+                },
+                {
+                  "label": "Thuli Bheri",
+                  "value": "60106"
+                },
+                {
+                  "label": "Kaike",
+                  "value": "60107"
+                },
+                {
+                  "label": "Chharka Tangsong",
+                  "value": "60108"
+                },
+                {
+                  "label": "Mugum Karmarong",
+                  "value": "60201"
+                },
+                {
+                  "label": "Chhayanath Rara",
+                  "value": "60202"
+                },
+                {
+                  "label": "Soru",
+                  "value": "60203"
+                },
+                {
+                  "label": "Khatyad",
+                  "value": "60204"
+                },
+                {
+                  "label": "Chankheli",
+                  "value": "60301"
+                },
+                {
+                  "label": "Kharpunath",
+                  "value": "60302"
+                },
+                {
+                  "label": "Simkot",
+                  "value": "60303"
+                },
+                {
+                  "label": "Namkha",
+                  "value": "60304"
+                },
+                {
+                  "label": "Sarkegad",
+                  "value": "60305"
+                },
+                {
+                  "label": "Adanchuli",
+                  "value": "60306"
+                },
+                {
+                  "label": "Tanjakot",
+                  "value": "60307"
+                },
+                {
+                  "label": "Patrasi",
+                  "value": "60401"
+                },
+                {
+                  "label": "Kanakasundari",
+                  "value": "60402"
+                },
+                {
+                  "label": "Sinja",
+                  "value": "60403"
+                },
+                {
+                  "label": "Chandannath",
+                  "value": "60404"
+                },
+                {
+                  "label": "Guthichaur",
+                  "value": "60405"
+                },
+                {
+                  "label": "Tatopani",
+                  "value": "60406"
+                },
+                {
+                  "label": "Tila",
+                  "value": "60407"
+                },
+                {
+                  "label": "Hima",
+                  "value": "60408"
+                },
+                {
+                  "label": "Palata",
+                  "value": "60501"
+                },
+                {
+                  "label": "Pachaljharana",
+                  "value": "60502"
+                },
+                {
+                  "label": "Raskot",
+                  "value": "60503"
+                },
+                {
+                  "label": "Sanni Tribeni",
+                  "value": "60504"
+                },
+                {
+                  "label": "Naraharinath",
+                  "value": "60505"
+                },
+                {
+                  "label": "Khandachakra",
+                  "value": "60506"
+                },
+                {
+                  "label": "Tilagufa",
+                  "value": "60507"
+                },
+                {
+                  "label": "Mahawai",
+                  "value": "60508"
+                },
+                {
+                  "label": "Kalika",
+                  "value": "60509"
+                },
+                {
+                  "label": "Naumule",
+                  "value": "60601"
+                },
+                {
+                  "label": "Mahabu",
+                  "value": "60602"
+                },
+                {
+                  "label": "Bhairabi",
+                  "value": "60603"
+                },
+                {
+                  "label": "Thantikandh",
+                  "value": "60604"
+                },
+                {
+                  "label": "Aathabis",
+                  "value": "60605"
+                },
+                {
+                  "label": "Chamunda Bindrasaini",
+                  "value": "60606"
+                },
+                {
+                  "label": "Dullu",
+                  "value": "60607"
+                },
+                {
+                  "label": "Narayan",
+                  "value": "60608"
+                },
+                {
+                  "label": "Bhagawatimai",
+                  "value": "60609"
+                },
+                {
+                  "label": "Dungeshwor",
+                  "value": "60610"
+                },
+                {
+                  "label": "Gurans",
+                  "value": "60611"
+                },
+                {
+                  "label": "Barekot",
+                  "value": "60701"
+                },
+                {
+                  "label": "Kuse",
+                  "value": "60702"
+                },
+                {
+                  "label": "Junichande",
+                  "value": "60703"
+                },
+                {
+                  "label": "Chhedagad",
+                  "value": "60704"
+                },
+                {
+                  "label": "Shiwalaya",
+                  "value": "60705"
+                },
+                {
+                  "label": "Bheri",
+                  "value": "60706"
+                },
+                {
+                  "label": "Tribeni Nalagad",
+                  "value": "60707"
+                },
+                {
+                  "label": "Aathbiskot",
+                  "value": "60801"
+                },
+                {
+                  "label": "Sani Bheri",
+                  "value": "60802"
+                },
+                {
+                  "label": "Banfikot",
+                  "value": "60803"
+                },
+                {
+                  "label": "Musikot",
+                  "value": "60804"
+                },
+                {
+                  "label": "Tribeni",
+                  "value": "60805"
+                },
+                {
+                  "label": "Chaurjahari",
+                  "value": "60806"
+                },
+                {
+                  "label": "Darma",
+                  "value": "60901"
+                },
+                {
+                  "label": "Kumakhmalika",
+                  "value": "60902"
+                },
+                {
+                  "label": "Bangad Kupinde",
+                  "value": "60903"
+                },
+                {
+                  "label": "Dhorchaur",
+                  "value": "60904"
+                },
+                {
+                  "label": "Bagchaur",
+                  "value": "60905"
+                },
+                {
+                  "label": "Chhatreshwori",
+                  "value": "60906"
+                },
+                {
+                  "label": "Sharada",
+                  "value": "60907"
+                },
+                {
+                  "label": "Kalimati",
+                  "value": "60908"
+                },
+                {
+                  "label": "Tribeni",
+                  "value": "60909"
+                },
+                {
+                  "label": "Kapurkot",
+                  "value": "60910"
+                },
+                {
+                  "label": "Simta",
+                  "value": "61001"
+                },
+                {
+                  "label": "Chingad",
+                  "value": "61002"
+                },
+                {
+                  "label": "Lekbeshi",
+                  "value": "61003"
+                },
+                {
+                  "label": "Gurbhakot",
+                  "value": "61004"
+                },
+                {
+                  "label": "Bheriganga",
+                  "value": "61005"
+                },
+                {
+                  "label": "Birendranagar",
+                  "value": "61006"
+                },
+                {
+                  "label": "Barahtal",
+                  "value": "61007"
+                },
+                {
+                  "label": "Panchpuri",
+                  "value": "61008"
+                },
+                {
+                  "label": "Chaukune",
+                  "value": "61009"
+                },
+                {
+                  "label": "Himali",
+                  "value": "70101"
+                },
+                {
+                  "label": "Gaumul",
+                  "value": "70102"
+                },
+                {
+                  "label": "Budhinanda",
+                  "value": "70103"
+                },
+                {
+                  "label": "Swami Kartik",
+                  "value": "70104"
+                },
+                {
+                  "label": "Pandav Gupha",
+                  "value": "70105"
+                },
+                {
+                  "label": "Badimalika",
+                  "value": "70106"
+                },
+                {
+                  "label": "Chhededaha",
+                  "value": "70107"
+                },
+                {
+                  "label": "Budhiganga",
+                  "value": "70108"
+                },
+                {
+                  "label": "Tribeni",
+                  "value": "70109"
+                },
+                {
+                  "label": "Kanda",
+                  "value": "70201"
+                },
+                {
+                  "label": "Bungal",
+                  "value": "70202"
+                },
+                {
+                  "label": "Surma",
+                  "value": "70203"
+                },
+                {
+                  "label": "Talkot",
+                  "value": "70204"
+                },
+                {
+                  "label": "Masta",
+                  "value": "70205"
+                },
+                {
+                  "label": "JayaPrithivi",
+                  "value": "70206"
+                },
+                {
+                  "label": "Chabispathivera",
+                  "value": "70207"
+                },
+                {
+                  "label": "Durgathali",
+                  "value": "70208"
+                },
+                {
+                  "label": "Kedarseu",
+                  "value": "70209"
+                },
+                {
+                  "label": "Bithadchir",
+                  "value": "70210"
+                },
+                {
+                  "label": "Thalara",
+                  "value": "70211"
+                },
+                {
+                  "label": "Khaptadchhanna",
+                  "value": "70212"
+                },
+                {
+                  "label": "Byas",
+                  "value": "70301"
+                },
+                {
+                  "label": "Dunhu",
+                  "value": "70302"
+                },
+                {
+                  "label": "Mahakali",
+                  "value": "70303"
+                },
+                {
+                  "label": "Naugad",
+                  "value": "70304"
+                },
+                {
+                  "label": "Apihimal",
+                  "value": "70305"
+                },
+                {
+                  "label": "Marma",
+                  "value": "70306"
+                },
+                {
+                  "label": "Shailyashikhar",
+                  "value": "70307"
+                },
+                {
+                  "label": "Malikaarjun",
+                  "value": "70308"
+                },
+                {
+                  "label": "Lekam",
+                  "value": "70309"
+                },
+                {
+                  "label": "Dilasaini",
+                  "value": "70401"
+                },
+                {
+                  "label": "Dogadakedar",
+                  "value": "70402"
+                },
+                {
+                  "label": "Purchaudi",
+                  "value": "70403"
+                },
+                {
+                  "label": "Surnaya",
+                  "value": "70404"
+                },
+                {
+                  "label": "Dasharathchanda",
+                  "value": "70405"
+                },
+                {
+                  "label": "Pancheshwar",
+                  "value": "70406"
+                },
+                {
+                  "label": "Shivanath",
+                  "value": "70407"
+                },
+                {
+                  "label": "Melauli",
+                  "value": "70408"
+                },
+                {
+                  "label": "Patan",
+                  "value": "70409"
+                },
+                {
+                  "label": "Sigas",
+                  "value": "70410"
+                },
+                {
+                  "label": "Nawadurga",
+                  "value": "70501"
+                },
+                {
+                  "label": "Amargadhi",
+                  "value": "70502"
+                },
+                {
+                  "label": "Ajaymeru",
+                  "value": "70503"
+                },
+                {
+                  "label": "Bhageshwar",
+                  "value": "70504"
+                },
+                {
+                  "label": "Parashuram",
+                  "value": "70505"
+                },
+                {
+                  "label": "Alital",
+                  "value": "70506"
+                },
+                {
+                  "label": "Ganayapdhura",
+                  "value": "70507"
+                },
+                {
+                  "label": "Purbichauki",
+                  "value": "70601"
+                },
+                {
+                  "label": "Sayal",
+                  "value": "70602"
+                },
+                {
+                  "label": "Adharsha",
+                  "value": "70603"
+                },
+                {
+                  "label": "Shikhar",
+                  "value": "70604"
+                },
+                {
+                  "label": "Dipayal Silgadi",
+                  "value": "70605"
+                },
+                {
+                  "label": "K I Singh",
+                  "value": "70606"
+                },
+                {
+                  "label": "Bogtan",
+                  "value": "70607"
+                },
+                {
+                  "label": "Badikedar",
+                  "value": "70608"
+                },
+                {
+                  "label": "Jorayal",
+                  "value": "70609"
+                },
+                {
+                  "label": "Panchadewal Binayak",
+                  "value": "70701"
+                },
+                {
+                  "label": "Ramaroshan",
+                  "value": "70702"
+                },
+                {
+                  "label": "Mellekh",
+                  "value": "70703"
+                },
+                {
+                  "label": "Sanphebagar",
+                  "value": "70704"
+                },
+                {
+                  "label": "Chaurpati",
+                  "value": "70705"
+                },
+                {
+                  "label": "Mangalsen",
+                  "value": "70706"
+                },
+                {
+                  "label": "Bannigadhi Jayagadh",
+                  "value": "70707"
+                },
+                {
+                  "label": "Kamalbazar",
+                  "value": "70708"
+                },
+                {
+                  "label": "Dhakari",
+                  "value": "70709"
+                },
+                {
+                  "label": "Turmakhad",
+                  "value": "70710"
+                },
+                {
+                  "label": "Mohanyal",
+                  "value": "70801"
+                },
+                {
+                  "label": "Chure",
+                  "value": "70802"
+                },
+                {
+                  "label": "Godawari",
+                  "value": "70803"
+                },
+                {
+                  "label": "Gauriganga",
+                  "value": "70804"
+                },
+                {
+                  "label": "Ghodaghodi",
+                  "value": "70805"
+                },
+                {
+                  "label": "Bardagoriya",
+                  "value": "70806"
+                },
+                {
+                  "label": "Lamkichuha",
+                  "value": "70807"
+                },
+                {
+                  "label": "Janaki",
+                  "value": "70808"
+                },
+                {
+                  "label": "Joshipur",
+                  "value": "70809"
+                },
+                {
+                  "label": "Tikapur",
+                  "value": "70810"
+                },
+                {
+                  "label": "Bhajani",
+                  "value": "70811"
+                },
+                {
+                  "label": "Kailari",
+                  "value": "70812"
+                },
+                {
+                  "label": "Dhangadhi",
+                  "value": "70813"
+                },
+                {
+                  "label": "Krishnapur",
+                  "value": "70901"
+                },
+                {
+                  "label": "Shuklaphanta",
+                  "value": "70902"
+                },
+                {
+                  "label": "Bedkot",
+                  "value": "70903"
+                },
+                {
+                  "label": "Bhimdatta",
+                  "value": "70904"
+                },
+                {
+                  "label": "Mahakali",
+                  "value": "70905"
+                },
+                {
+                  "label": "Laljhadi",
+                  "value": "70906"
+                },
+                {
+                  "label": "Punarbas",
+                  "value": "70907"
+                },
+                {
+                  "label": "Belauri",
+                  "value": "70908"
+                },
+                {
+                  "label": "Beldandi",
+                  "value": "70909"
+                },
+                {
+                  "label": "Koshi Tappu Wildlife Reserve",
+                  "value": "80101"
+                },
+                {
+                  "label": "Shivapuri Watershed and Wildlife Reserve",
+                  "value": "80102"
+                },
+                {
+                  "label": "Langtang National Park",
+                  "value": "80103"
+                },
+                {
+                  "label": "Parsa Wildlife Reserve",
+                  "value": "80104"
+                },
+                {
+                  "label": "Chitawan National Park",
+                  "value": "80105"
+                },
+                {
+                  "label": "Dhorpatan Hunting Reserve",
+                  "value": "80106"
+                },
+                {
+                  "label": "Lumbini Sanskritik Development Area",
+                  "value": "80107"
+                },
+                {
+                  "label": "Bardiya National Park",
+                  "value": "80108"
+                },
+                {
+                  "label": "Khaptad National Park",
+                  "value": "80109"
+                },
+                {
+                  "label": "Shuklaphanta National Park",
+                  "value": "80110"
+                }
+              ]
+            }
+          ]
+      }
+
+      
+
+]
