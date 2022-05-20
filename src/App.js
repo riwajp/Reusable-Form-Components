@@ -14,7 +14,7 @@ export default function App() {
   const [stories, setStories] = useState();
   const [filters,setFilters]=useState();
   const [filtered_stories,setFilteredStories]=useState();
-
+console.log(filters);
 const default_form_values={
   date:{start: new Date(new Date().setDate(new Date().getDate() - 7)),end: new Date()},
  
@@ -36,7 +36,7 @@ const default_form_values={
   useEffect(()=>{
 
     if(filtered_stories){
-    let temp_filtered_stories=filtered_stories;
+    let temp_filtered_stories=stories.full_stories;
     for(let schema of filter_schema){
       
       temp_filtered_stories=filter(temp_filtered_stories,schema.key,schema.type,filters[schema.value] )
@@ -44,7 +44,7 @@ const default_form_values={
 
     }
     console.log(temp_filtered_stories)
-    setFilteredStories(temp_filtered_stories ? temp_filtered_stories : stories.full_stories)
+    setFilteredStories(temp_filtered_stories )
     
   }
 

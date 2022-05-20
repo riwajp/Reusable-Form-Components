@@ -1,4 +1,4 @@
 [
-    {"key":"_source.indexed_at","type":"within-date","value":"date"},
+    {"key":"_source.published_at","type":"within-date","value":"date"},
     {"key":"_source.locations.primary.code","type":"starts-with-multiple","value":"location"}
 ]
