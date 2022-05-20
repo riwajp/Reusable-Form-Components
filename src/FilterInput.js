@@ -14,32 +14,14 @@ const FilterInput =
         default_value,
         options,
         controlled,
-        setControlledFilters,
-        setUncontrolledFilters,
+        onChange,
         filters,
         ...field
       },
       
     ) => {
     
-      let onChangeProp = {};
-      if (controlled) {
-        onChangeProp = {
-          onChange: (value) => {
-            setControlledFilters(
-             
-             value
-            );
-          },
-         
-        };
-      }else{
-        onChangeProp={
-          onChange:(value)=>{
-            setUncontrolledFilters(value);
-          }
-        }
-      }
+      
       switch (type) {
 
         case "multi-select":
@@ -49,6 +31,7 @@ const FilterInput =
             name={name}
             data={field.data}
             default_value={default_value}
+            onChange={(vals)=>onChange(vals)}
           
             renderEach={({ Select, label, ...props }) => (
               <div className="mt-2">
@@ -56,7 +39,7 @@ const FilterInput =
                 <Select {...props} />
               </div>
             )}
-            {...onChangeProp}
+            
           />
 
           );
@@ -79,9 +62,9 @@ const FilterInput =
             return( <DateRangePicker
             default_value={default_value}
               name={name}
-              {...onChangeProp}
+             
               months={months}
-            
+              onChange={(vals)=>onChange(vals)}
               valueClassName="bg-yellow-400 text-white  outline-0 w-full text-center cursor-pointer"
               renderHead={({
                 date,

@@ -9,10 +9,22 @@ const SelectForms = ({ name, data,  renderEach,default_value,onChange }) => {
     selected[i]= default_value && default_value[i] ? default_value[i] :  [];
   }
   const [selected_values,setSelectedValues]=useState(selected);
+  const lowest_values=()=>{
+    let lowest_key;
+    for(let i of select_names){
+      if(selected_values[i] && selected_values[i].length){
+        lowest_key=i;
+      }
+    }
+    return(selected_values[lowest_key]);
+
+  }
+
+
   
   useEffect(()=>{
     if(onChange){
-      onChange(selected_values)
+      onChange(lowest_values()?.map(v=>v.value))
     }
 
   },[selected_values])

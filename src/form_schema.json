@@ -1,9 +1,9 @@
-[
-  {"name":"date","type":"date-range","controlled":true},
+{"name":"form1","controlled":true,"inputs":[
+  {"name":"date","type":"date-range"},
     { 
         "name": "location",
         "type": "multi-select",   
-        "controlled":true,
+        
         "data":[
             {
               "label": "Province",
@@ -3417,3 +3417,4 @@
       
 
 ]
+}
